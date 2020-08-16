@@ -1,0 +1,190 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+
+  <!-- Navigation Bar  -->
+  <div class="navbar">
+    <div style="flex-grow: 1">
+      <a href="index.html">
+        <div class="logobutton">
+          <img
+            src="assets/logo.png"
+            defer
+            width="118"
+            alt="logo button"
+          />
+        </div>
+      </a>
+    </div>
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="science.html">Science</a></li>
+          <li><a href="technology.html">Tech</a></li>
+          <li><a href="engineering.html">Engineering</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li><a href="math.html">Math</a></li>
+          <li><a href="about-contactus.html">About/Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="page-intro">
+    <h1>Technology</h1>
+    <h2>(Coding-focused)</h2>
+    <p>
+      <a>
+        Want to code something, but don't know where to start? Generate some
+        fun, creative ideas below!</a
+      >
+    </p>
+    <br />
+    <br />
+    <div>
+      <img
+        src="assets/tech.jpg"
+        width="300px"
+        alt="technology image"
+      />
+    </div>
+    <br />
+    <div class="description">
+      <p>
+        We have coding challenges for all levels of experience!
+      </p>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div class="description">
+    <h3>BEGINNER</h3>
+    <br />
+    <center>
+      <form name="wordformt1">
+        <textarea name="wordboxt1"> Click the generator...</textarea>
+        <br />
+        <input
+          type="button"
+          class="button"
+          value="Generate"
+          onclick="PickRandomWordTech1(document.wordformt1);"
+        />
+      </form>
+    </center>
+  </div>
+  <br />
+  <br />
+  <div class="description">
+    <h3>INTERMEDIATE</h3>
+    <br />
+    <center>
+      <form name="wordformt2">
+        <textarea name="wordboxt2">Click the generator... </textarea>
+        <br />
+        <input
+          type="button"
+          class="button"
+          value="Generate"
+          onclick="PickRandomWordTech2(document.wordformt2);"
+        />
+      </form>
+    </center>
+  </div>
+  <br />
+  <br />
+  <div class="description">
+    <h3>ADVANCED</h3>
+    <br />
+    <center>
+      <form name="wordformt3">
+        <textarea name="wordboxt3">Click the generator... </textarea>
+        <br />
+        <input
+          type="button"
+          class="button"
+          value="Generate"
+          onclick="PickRandomWordTech3(document.wordformt3);"
+        />
+      </form>
+    </center>
+  </div>
+
+  <br />
+  <br />
+  <center>
+    <div class="description">
+      <h4>CODING GUIDES</h4>
+      <br />
+      <p>
+        Reference list and resources for coding activities
+      </p>
+    </div>
+    <br />
+    <div class="links">
+      <ul>
+        <li>
+          <a href="https://trinket.io/" target="_blank"
+            >TRINKET runs html, java, and python on a browser</a
+          >
+        </li>
+        <br />
+        <li>
+          <a href="https://www.python.org/downloads/">Download PYTHON here</a>
+        </li>
+        <br />
+        <li>
+          <a href="https://edabit.com/challenges" target="_blank"
+            >EDABIT has thousands of coding practice problems for a variety of
+            levels</a
+          >
+        </li>
+        <br />
+        <li>
+          <a href="https://atom.io/" target="_blank"
+            >Download ATOM here, supports C++, HTML, JAVA, JS, PYTHON, C#, and
+            more</a
+          >
+        </li>
+        <li><a target="_blank"></a></li>
+        <li>
+          <a href="https://www.topcoder.com/challenges"
+            >TopCoder challenges (notes: these are competitive expert-level
+            challenges)</a
+          >
+        </li>
+        <br />
+        <li>
+          <a href="https://projecteuler.net/" target="_blank">Project Euler</a>
+        </li>
+
+        <br />
+        <li>
+          <a href="https://java.com/en/download/" target="_blank"
+            >Download Java Here</a
+          >
+        </li>
+      </ul>
+    </div>
+  </center>
+  <footer>
+    (C) Copyright 2020. Generate STEAMinds.
+  </footer>
+</html>

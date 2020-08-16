@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar  -->
+    <div class="navbar">
+      <div style="flex-grow: 1">
+        <a href="index.html">
+          <div class="logobutton">
+            <img
+              src="assets/logo.png"
+              defer
+              width="118"
+              alt="logo button"
+            />
+          </div>
+        </a>
+      </div>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="science.html">Science</a></li>
+            <li><a href="technology.html">Tech</a></li>
+            <li><a href="engineering.html">Engineering</a></li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="math.html">Math</a></li>
+            <li><a href="about-contactus.html">About/Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="page-intro">
+      <h1>Art</h1>
+      <p>
+        <a
+          >Are you stuck in a creative rut? Want to create one-of-a-kind art or
+          writing pieces? Want to challenge your artistic abilities?</a
+        >
+      </p>
+      <p>
+        <a> Use the generators below to find inspiration!</a>
+      </p>
+      <br />
+      <br />
+      <div>
+        <img
+          src="assets/art.jpg"
+          width="300px"
+          alt="art"
+        />
+        <br />
+      </div>
+    </div>
+
+    <div class="description">
+      <h3>COLOR PALETTE</h3>
+      <br />
+      <p style="justify-content: left;">
+        This generator helps you find color palette ideas for your next creative
+        project. Click here to randomly generate a color palette!
+      </p>
+      <center>
+        <span id="color-1" class="palette">#FA2AAC</span>
+        <span id="color-2" class="palette">#ED28A2</span>
+        <span id="color-3" class="palette">#D42490</span>
+        <span id="color-4" class="palette">#AD1D76</span>
+        <span id="color-5" class="palette">#6E134B</span>
+        &nbsp;
+        <button class="button" onclick="pickRandomColor()">
+          Generate
+        </button>
+      </center>
+    </div>
+
+    <div class="description">
+      <br />
+      <br />
+      <h3>CREATIVE WRITING PROMPTS</h3>
+      &nbsp;
+      <p style="justify-content: left;">
+        No idea what to write for an essay or creative writing? Use this
+        generator for some inspiration.
+      </p>
+      &nbsp;
+      <center>
+        <form name="creativePrompts">
+          <textarea name="WriteIdeas" rows="5">Click the generator...</textarea>
+          <input
+            type="button"
+            value="Generate"
+            class="button"
+            onclick="pickRandomPrompt(document.creativePrompts)"
+          />
+        </form>
+        <br />
+        <br />
+      </center>
+    </div>
+
+    <div class="description">
+      <h3>SYMBOLS/TOPICS TO DRAW</h3>
+      &nbsp;
+      <p style="justify-content: left;">
+        Found your color palette, but don't know what to do next? Use the
+        generator below to find simple symbols or topics you can expand on!
+      </p>
+      &nbsp;
+      <center>
+        <form name="topicsToDraw">
+          <textarea name="DrawIdeas">Click the generator...</textarea>
+          <input
+            type="button"
+            value="Generate"
+            class="button"
+            onclick="pickRandomTopic(document.topicsToDraw)"
+          />
+        </form>
+      </center>
+    </div>
+  </body>
+  <footer>
+    (C) Copyright 2020. Generate STEAMinds.
+  </footer>
+</html>

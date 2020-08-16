@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar  -->
+    <div class="navbar">
+      <div style="flex-grow: 1">
+        <a href="index.html">
+          <div class="logobutton">
+            <img
+              src="assets/logo.png"
+              defer
+              width="118"
+              alt="logo button"
+            />
+          </div>
+        </a>
+      </div>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="science.html">Science</a></li>
+            <li><a href="technology.html">Tech</a></li>
+            <li><a href="engineering.html">Engineering</a></li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="math.html">Math</a></li>
+            <li><a href="about-contactus.html">About/Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="page-intro">
+      <h1>Engineering</h1>
+      <p>
+        <a
+          >Bored at home during quarantine? Looking for DIY projects or design
+          challenges to complete around your house?</a
+        >
+      </p>
+      <p>
+        <a>Generate unique ideas here!</a>
+      </p>
+      <br />
+      <br />
+      <div>
+        <img
+          src="assets/engineering.jpg"
+          width="350px"
+          alt="engineering"
+        />
+      </div>
+      <br />
+      <p>
+        Take inspiration from the phrase generated and use your own imagination
+        to create a unique product! Remember to contact us with photos of your
+        designs. Happy building!
+      </p>
+      <br />
+      <br />
+    </div>
+
+    <!-- Generator -->
+    <br />
+    <div class="description">
+      <h3>DIY PROJECTS & DESIGN CHALLENGES</h3>
+      <br />
+      <h4>
+        Design a(n)...
+      </h4>
+      <br />
+      <center>
+        <form name="WordFormEngineering">
+          <textarea name="WordBoxE">Click the generator... </textarea>
+          <input
+            type="button"
+            value="Generate"
+            onclick="PickRandomEngineering(document.WordFormEngineering);"
+            class="button"
+          />
+        </form>
+      </center>
+    </div>
+  </body>
+  <footer>
+    (C) Copyright 2020. Generate STEAMinds.
+  </footer>
+</html>

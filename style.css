@@ -1,0 +1,236 @@
+/* CSS files add styling rules to your content */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Questrial";
+}
+
+body {
+  background: #f2fbfc;
+}
+
+.jumplink {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 21px;
+  padding-top: 0.38em;
+  padding-left: 0.5em;
+  padding-right: 1em;
+  color: black;
+}
+/*Navigation Bar*/
+.navbar {
+  display: flex;
+  padding: 20px;
+  background-color: #9DB4C0;
+  justify-content: flex-end;
+  box-shadow: 10px solid #def5f6;
+  align-items: center;
+}
+.nav li {
+  display: inline-block;
+  padding: 15px 20px;
+}
+.nav li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 18px;
+}
+.nav a:hover {
+  background-color: #C2DFE3;
+  padding: 20px 30px;
+  opacity: 0.5;
+  color: black;
+}
+
+/* All Pages Header + Intro Phrase */
+.page-intro,
+#steam-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.page-intro h1,
+#steam-content h2 {
+  font-size: 45px;
+  padding-top: 1.5em;
+}
+.page-intro p {
+  font-size: 22px;
+  font-family: "Open Sans";
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.description {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-size: 18px;
+}
+/*Homepage -- Introduction Paragraph*/
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+.section p {
+  width: 420px;
+  padding: 35px;
+  background: #C2DFE3;
+  opacity: 0.6;
+  border-radius: 30px;
+  margin: 20px;
+}
+#bulb-img {
+  margin: 20px;
+}
+
+/*Homepage -- STEAM Disciplines Navigation*/
+.disciplines {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.subsection {
+  display: flex;
+  justify-content: left;
+  font-family: "Open Sans";
+  padding: 20px;
+  padding-left: 25%;
+}
+.disciplines a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  background: #C2DFE3;
+  padding: 25px 35px;
+}
+.disciplines a:hover {
+  background-color: #C2DFE3;
+  padding: 25px 35px;
+  opacity: 0.5;
+  color: black;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+}
+
+/*Homepage Resources*/
+#resources {
+  display: flex;
+  justify-content: center;
+}
+/*Science Page*/
+
+#science-img {
+  margin-left: 45%;
+}
+.button {
+  background: #9DB4C0;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+  margin: 20px;
+  display: block;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+}
+/*text boxes*/
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px #5C6B73;
+  font-size: 20px;
+  text-align: center;
+  border: solid grey;
+}
+
+/*Technology Page*/
+
+.links a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20;
+  color: blue;
+}
+.links a:hover {
+  color: #ab59d4;
+}
+
+/*Art Page*/
+.palette {
+  margin-top: 3%;
+  border-radius: 10%;
+  display: inline-block;
+  padding: 80px;
+}
+
+#color-1 {
+  background-color: #FA2AAC;
+}
+#color-2 {
+  background-color: #ED28A2;
+}
+#color-3 {
+  background-color: #D42490;
+}
+#color-4 {
+  background-color: #AD1D76;
+}
+#color-5 {
+  background-color: #6E134B;
+}
+
+/*Math Page*/
+.math-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+/*Engineering Page*/
+
+/*About Page*/
+.members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.members div {
+  border: 4px solid grey;
+}
+.members p {
+  padding: 5px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+/*Footer*/
+footer {
+  padding: 30px;
+}

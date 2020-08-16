@@ -1,0 +1,207 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar  -->
+    <div class="navbar">
+      <div style="flex-grow: 1">
+        <a href="index.html">
+          <div class="logobutton">
+            <img
+              src="assets/logo.png"
+              defer
+              width="118"
+              alt="logo button"
+            />
+          </div>
+        </a>
+      </div>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="science.html">Science</a></li>
+            <li><a href="technology.html">Tech</a></li>
+            <li><a href="engineering.html">Engineering</a></li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="math.html">Math</a></li>
+            <li><a href="about-contactus.html">About/Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="page-intro">
+      <h1>Science</h1>
+      <p>
+        <a
+          >Need science fair project ideas? Want to conduct an experiment for
+          fun? Want to research a new topic?
+        </a>
+      </p>
+      <p>
+        <a
+          >Use the generator below to find a topic or the links below for
+          interactive experiments.</a
+        >
+      </p>
+      <br />
+      <br />
+      <div>
+        <img
+          src="assets/science.jpg"
+          width="300"
+          alt="science image"
+        />
+      </div>
+      <br />
+    </div>
+
+    <div class="description">
+      <br />
+      <p>
+        This generator helps find ideas for science fairs. The first part of the
+        generated phrase is the independent variable, which you will manipulate
+        to find different results. The second part of the generated phrase is
+        the dependent variable. This is the variable which will change when the
+        independent variable is manipulated. Your job is to find the
+        relationship between the two given variables!
+      </p>
+      <br />
+      <p>
+        For example, when the phrase "Music loudness and animal behavior" is
+        generated, the independent variable is music loudness, and the dependent
+        variable is animal behavior. You may choose to select a specific animal,
+        such as a dog, for your experiment.
+      </p>
+      <br />
+      <p>
+        Hint: Your experiment would involve the changing of volume of particular
+        music. Your data would include how the music loudness was manipulated,
+        and how the dog's behavior changed.
+      </p>
+      <br />
+    </div>
+    <br />
+    <br />
+
+    <!--SCIENCE FAIR IDEAS-->
+    <div id="science-fair">
+      <div class="description">
+        <h3>
+          SCIENCE FAIR IDEAS
+        </h3>
+        <br />
+        <center>
+          <form name="WordFormScience">
+            <textarea name="WordBoxSci">Click the generator... </textarea>
+            <br />
+            <input
+              type="button"
+              value="Generate"
+              onclick="PickRandomWord(document.WordFormScience);"
+              class="button"
+            />
+          </form>
+        </center>
+      </div>
+      <br />
+      <br />
+
+      <div class="description">
+        <h3>
+          EXPERIMENT IDEAS
+        </h3>
+        <br />
+        <p>
+          Hands-on experience is vital to challenging young minds. The links
+          below are fun experiments you can do with everyday items. Give them a
+          try, and contact us with any pictures or videos from your experiments!
+        </p>
+        <br />
+      </div>
+      <div class="links">
+        <ul>
+          <p>
+            <li1
+              ><a
+                target="_blank"
+                href="https://sciencing.com/osmosis-egg-experiments-8455706.html"
+              >
+                Osmosis Egg Experiments</a
+              ></li1
+            >
+          </p>
+          <br />
+          <p>
+            <li2
+              ><a
+                target="_blank"
+                href="https://sciencing.com/make-corn-starch-speaker-experiment-12049142.html"
+              >
+                Experiments with Cornstarch and Water</a
+              ></li2
+            >
+          </p>
+          <br />
+          <p>
+            <li3
+              ><a
+                target="_blank"
+                href="https://sciencing.com/colorchanging-liquid-experiments-6038950.html"
+              >
+                Color-Changing Liquid Experiments</a
+              ></li3
+            >
+          </p>
+          <br />
+          <p>
+            <li4
+              ><a
+                target="_blank"
+                href="https://sciencing.com/water-density-science-experiments-8029220.html"
+              >
+                Water Density Science Experiments</a
+              ></li4
+            >
+          </p>
+          <br />
+          <p>
+            <a
+              target="_blank"
+              href="https://www.sciencefun.org/kidszone/experiments/how-to-make-a-volcano/"
+              >Make a Volcano</a
+            >
+          </p>
+          <br />
+          <p>
+            <a
+              target="_blank"
+              href="https://www.sciencefun.org/kidszone/experiments/lava-lamp/"
+              >Building a Lava Lamp</a
+            >
+          </p>
+          <br />
+          <br />
+        </ul>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    (C) Copyright 2020. Generate STEAMinds.
+  </footer>
+</html>

@@ -1,0 +1,260 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar  -->
+    <div class="navbar">
+      <div style="flex-grow: 1">
+        <a href="index.html">
+          <div class="logobutton">
+            <img
+              src="assets/logo.png"
+              defer
+              width="118"
+              alt="logo button"
+            />
+          </div>
+        </a>
+      </div>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="science.html">Science</a></li>
+            <li><a href="technology.html">Tech</a></li>
+            <li><a href="engineering.html">Engineering</a></li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="math.html">Math</a></li>
+            <li><a href="about-contactus.html">About/Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="page-intro">
+      <h1>Mathematics</h1>
+      <p>
+        <a>
+          Want to learn math in an interactive, yet intellectually challenging
+          way? Want to prepare for math contests and competitions?
+        </a>
+      </p>
+      <p>
+        <a>Use the generators below to find some fun math activities!</a>
+      </p>
+      <br />
+      <br />
+      <div>
+        <img
+          src="assets/math.jpg"
+          width="300px"
+          alt="math"
+        />
+      </div>
+      <br />
+    </div>
+
+    <div class="description">
+      <br />
+      <h4>BRAIN TEASERS (for kids)</h4>
+      <br />
+      <p style="justify-content: left;">
+        Generate a problem and put your problem solving and critical thinking
+        skills to the test!
+      </p>
+      <br />
+      <center>
+        <form name="BrainTeasers">
+          <textarea name="Teasers">Click the generator... </textarea>
+          <input
+            type="button"
+            value="Generate"
+            onclick="PickRandomMathTeaser(document.BrainTeasers)"
+            class="button"
+          />
+        </form>
+      </center>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="description">
+      <br />
+      <h4>ALGEBRA QUESTIONS (for grades 7/8)</h4>
+      <br />
+      <p style="justify-content: left;">
+        Practice your algebra skills by generating random questions!
+      </p>
+      <br />
+      <center>
+        <form name="AlgebraQuestions">
+          <textarea name="Algebra">Click the generator... </textarea>
+          <input
+            type="button"
+            value="Generate"
+            onclick="PickRandomMathAlgebra(document.AlgebraQuestions)"
+            class="button"
+          />
+        </form>
+      </center>
+    </div>
+
+    <br />
+    <br />
+    <div class="description">
+      <div>
+        <br />
+        <h4>MATH GAMES AND EXTENSION PROBLEMS (for grades 11/12)</h4>
+        <br />
+        <p>
+          Here you can find fun but challenging math games complemented with
+          stimulating extension questions from University of Waterloo's "CENTRE
+          for EDUCATION in MATHEMATICS and COMPUTING".
+          <br />
+          Look through the list below to find the corresponding file to the
+          generated activity's instructions and solutions.
+        </p>
+        <br />
+        <center>
+          <form name="MathGames">
+            <textarea name="Activities">Click the generator... </textarea>
+            <input
+              type="button"
+              value="Generate"
+              onclick="PickRandomMathGame(document.MathGames)"
+              class="button"
+            />
+          </form>
+        </center>
+      </div>
+      <br />
+      <center>
+        <div class="description">
+          <h3>Links to Math Games and Extension Problems:</h3>
+          <br />
+          <div class="links">
+            <ul>
+              <p>
+                <li1>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FRook%20to%20the%20Top.pdf?v=1597421674754"
+                    >Rook to the Top</a
+                  >
+                </li1>
+              </p>
+              <br />
+              <p>
+                <li2>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FDivisors%20and%20Primes.pdf?v=1597432146819"
+                    >Divisors and Primes</a
+                  >
+                </li2>
+              </p>
+              <br />
+              <p>
+                <li3>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FByber%20Path.pdf?v=1597432590195"
+                    >Byber Path</a
+                  >
+                </li3>
+              </p>
+              <br />
+              <p>
+                <li4>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FFunctionally%20Possible.pdf?v=1597432957592"
+                    >Functionally Possible</a
+                  >
+                </li4>
+              </p>
+              <br />
+              <p>
+                <li5>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FThe%20Mobius%20Strip.pdf?v=1597433029366"
+                    >The Mobius Strip</a
+                  >
+                </li5>
+              </p>
+              <br />
+              <p>
+                <li6>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FCheck%20Your%20Calendar.pdf?v=1597433101834"
+                    >Check Your Calendar</a
+                  >
+                </li6>
+              </p>
+              <br />
+              <p>
+                <li7>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FMaking%20a%20List.pdf?v=1597433192928"
+                    >Making a List</a
+                  >
+                </li7>
+              </p>
+              <br />
+              <p>
+                <li8>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FCollecting%20Pollen%20and%20Wood.pdf?v=1597433234280"
+                    >Collecting Pollen and Wood</a
+                  >
+                </li8>
+              </p>
+              <br />
+              <p>
+                <li9>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FThree%20Equal%20Sides.pdf?v=1597433319322"
+                    >Three Equal Sides</a
+                  >
+                </li9>
+              </p>
+              <br />
+              <p>
+                <li10>
+                  <a
+                    target="_blank"
+                    href="https://cdn.glitch.com/810b7ff9-64a3-4c83-8da2-73a92f1cf976%2FA%20Dicey%20Situation.pdf?v=1597433385812"
+                    >A Dicey Situation</a
+                  >
+                </li10>
+              </p>
+            </ul>
+          </div>
+        </div>
+      </center>
+    </div>
+  </body>
+  <footer>
+    (C) Copyright 2020. Generate STEAMinds.
+  </footer>
+</html>
