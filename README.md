@@ -1,4 +1,4 @@
-# Generate STREAMinds
+# Generate STEAMinds
 
 Website link: https://toughpiano6.qoom.space/index.html
 
